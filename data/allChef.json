@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Gordon Ramsay",
         "picture_url": "https://images.pexels.com/photos/4252146/pexels-photo-4252146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 30,
@@ -8,7 +8,7 @@
         "likes": 150000,
         "specialty": "French cuisine",
         "description": "Gordon Ramsay is a British chef, restaurateur, and television personality. He has owned and operated a number of restaurants around the world, including the Michelin-starred Restaurant Gordon Ramsay in London. Ramsay is known for his fiery personality and no-nonsense approach to cooking, as well as his appearances on a number of TV shows, including Hell's Kitchen, MasterChef, and Kitchen Nightmares.",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Spaghetti Bolognese",
                 "ingredients": [
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Ina Garten",
         "picture_url": "https://images.pexels.com/photos/3769999/pexels-photo-3769999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 40,
@@ -56,7 +56,7 @@
         "likes": 50000,
         "specialty": "American cuisine",
         "description": "Ina Garten is an American author and host of the Food Network program Barefoot Contessa. She is also a former staff member of the White House Office of Management and Budget. Garten is known for her simple and elegant approach to cooking, and many of her recipes are featured in her bestselling cookbooks, such as Barefoot Contessa at Home and Barefoot Contessa Parties!",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Beef Stir-Fry",
                 "ingredients": [
@@ -96,7 +96,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Jamie Oliver",
         "picture_url": "https://images.pexels.com/photos/1397514/pexels-photo-1397514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 25,
@@ -104,7 +104,7 @@
         "likes": 100000,
         "specialty": "Italian cuisine",
         "description": "Jamie Oliver is a British chef and restaurateur. He is known for his advocacy for healthy eating and his campaigns to improve school food. Oliver has authored several cookbooks, including Jamie's Kitchen, Jamie's Italy, and Jamie's Great Britain. He has also hosted numerous television shows, including The Naked Chef, Jamie's 15 Minute Meals, and Jamie's Super Food.",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Spaghetti Bolognese",
                 "ingredients": [
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Nigella Lawson",
         "picture_url": "https://images.pexels.com/photos/3771106/pexels-photo-3771106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 20,
@@ -152,7 +152,7 @@
         "likes": 75000,
         "specialty": "British cuisine",
         "description": "Nigella Lawson is a British food writer and television cook. She has written several bestselling cookbooks, including How to Eat, Nigella Bites, and Feast. Lawson is known for her relaxed and informal approach to cooking, and many of her recipes are inspired by her childhood memories and travels. She has also hosted several TV shows, including Nigella Bites and Nigella Feasts.",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Beef Stir-Fry",
                 "ingredients": [
@@ -192,7 +192,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Massimo Bottura",
         "picture_url": "https://images.pexels.com/photos/8951037/pexels-photo-8951037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 30,
@@ -200,7 +200,7 @@
         "likes": 90000,
         "specialty": "Italian cuisine",
         "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner and chef of the three-Michelin-starred Osteria Francescana in Modena, Italy, which has been ranked as one of the best restaurants in the world. Bottura is known for his innovative and creative approach to cooking, and he has been recognized for his efforts to reduce food waste and promote sustainability in the culinary industry. He has authored several cookbooks, including Never Trust a Skinny Italian Chef and Bread is Gold.",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Spaghetti Bolognese",
                 "ingredients": [
@@ -240,7 +240,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Yotam Ottolenghi",
         "picture_url": "https://images.pexels.com/photos/2544830/pexels-photo-2544830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 15,
@@ -248,7 +248,7 @@
         "likes": 80000,
         "specialty": "Middle Eastern cuisine",
         "description": "Yotam Ottolenghi is a chef, restaurateur, and food writer based in London, UK. He is widely recognized for his approach to vegetarian and Middle Eastern-inspired cuisine, which he often blends with modern techniques and ingredients. Ottolenghi's dishes are known for their bold flavors and colorful presentations, and he has authored several best-selling cookbooks, including Plenty and Jerusalem. He is also the co-owner of several restaurants, including Ottolenghi and NOPI, and has been recognized with numerous awards for his contributions to the culinary world. Ottolenghi is passionate about using fresh, seasonal ingredients and believes that cooking should be enjoyable, creative, and accessible to all.",
-        "rescipes": [
+        "recipes": [
             {
                 "name": "Beef Stir-Fry",
                 "ingredients": [
