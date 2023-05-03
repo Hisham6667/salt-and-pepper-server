@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Gordon Ramsay",
-        "picture_url": "",
+        "picture_url": "https://images.pexels.com/photos/4252146/pexels-photo-4252146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 30,
         "number_of_recipes": 1000,
         "likes": 150000,
@@ -50,7 +50,7 @@
     {
         "id": 2,
         "name": "Ina Garten",
-        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ina_Garten_2009.jpg/800px-Ina_Garten_2009.jpg",
+        "picture_url": "https://images.pexels.com/photos/3769999/pexels-photo-3769999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 40,
         "number_of_recipes": 500,
         "likes": 50000,
@@ -98,7 +98,7 @@
     {
         "id": 3,
         "name": "Jamie Oliver",
-        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jamie_Oliver_2014.jpg",
+        "picture_url": "https://images.pexels.com/photos/1397514/pexels-photo-1397514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 25,
         "number_of_recipes": 800,
         "likes": 100000,
@@ -146,7 +146,7 @@
     {
         "id": 4,
         "name": "Nigella Lawson",
-        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Nigella_Lawson_portrait.jpg",
+        "picture_url": "https://images.pexels.com/photos/3771106/pexels-photo-3771106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 20,
         "number_of_recipes": 400,
         "likes": 75000,
@@ -194,7 +194,7 @@
     {
         "id": 5,
         "name": "Massimo Bottura",
-        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Massimo_Bottura_2015.jpg",
+        "picture_url": "https://images.pexels.com/photos/8951037/pexels-photo-8951037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 30,
         "number_of_recipes": 200,
         "likes": 90000,
@@ -242,7 +242,7 @@
     {
         "id": 6,
         "name": "Yotam Ottolenghi",
-        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Yotam_Ottolenghi.jpg",
+        "picture_url": "https://images.pexels.com/photos/2544830/pexels-photo-2544830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "years_of_experience": 15,
         "number_of_recipes": 300,
         "likes": 80000,
