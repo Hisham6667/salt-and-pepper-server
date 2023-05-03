@@ -1,58 +1,290 @@
 [
     {
-      "name": "Gordon Ramsay",
-      "picture_url": "",
-      "years_of_experience": 30,
-      "number_of_recipes": 1000,
-      "likes": 150000,
-      "specialty": "French cuisine",
-      "description": "Gordon Ramsay is a British chef, restaurateur, and television personality. He has owned and operated a number of restaurants around the world, including the Michelin-starred Restaurant Gordon Ramsay in London. Ramsay is known for his fiery personality and no-nonsense approach to cooking, as well as his appearances on a number of TV shows, including Hell's Kitchen, MasterChef, and Kitchen Nightmares."
+        "id": 1,
+        "name": "Gordon Ramsay",
+        "picture_url": "",
+        "years_of_experience": 30,
+        "number_of_recipes": 1000,
+        "likes": 150000,
+        "specialty": "French cuisine",
+        "description": "Gordon Ramsay is a British chef, restaurateur, and television personality. He has owned and operated a number of restaurants around the world, including the Michelin-starred Restaurant Gordon Ramsay in London. Ramsay is known for his fiery personality and no-nonsense approach to cooking, as well as his appearances on a number of TV shows, including Hell's Kitchen, MasterChef, and Kitchen Nightmares.",
+        "rescipes": [
+            {
+                "name": "Spaghetti Bolognese",
+                "ingredients": [
+                    "1 pound spaghetti",
+                    "1 pound ground beef",
+                    "1 onion, chopped",
+                    "1 can crushed tomatoes",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef and onion over medium heat until beef is no longer pink.\n3. Add crushed tomatoes and garlic. Simmer for 10-15 minutes.\n4. Serve sauce over cooked spaghetti.",
+                "rating": 4.5
+            },
+            {
+                "name": "Chicken Fajitas",
+                "ingredients": [
+                    "1 pound boneless, skinless chicken breasts",
+                    "1 green bell pepper, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 onion, sliced",
+                    "1/4 cup olive oil"
+                ],
+                "method": "1. Cut chicken into thin strips.\n2. In a large skillet, heat olive oil over medium-high heat.\n3. Add chicken and cook until no longer pink.\n4. Add peppers and onion. Cook until vegetables are tender.\n5. Serve in tortillas.",
+                "rating": 4.7
+            },
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            }
+        ]
     },
     {
-      "name": "Ina Garten",
-      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ina_Garten_2009.jpg/800px-Ina_Garten_2009.jpg",
-      "years_of_experience": 40,
-      "number_of_recipes": 500,
-      "likes": 50000,
-      "specialty": "American cuisine",
-      "description": "Ina Garten is an American author and host of the Food Network program Barefoot Contessa. She is also a former staff member of the White House Office of Management and Budget. Garten is known for her simple and elegant approach to cooking, and many of her recipes are featured in her bestselling cookbooks, such as Barefoot Contessa at Home and Barefoot Contessa Parties!"
+        "id": 2,
+        "name": "Ina Garten",
+        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ina_Garten_2009.jpg/800px-Ina_Garten_2009.jpg",
+        "years_of_experience": 40,
+        "number_of_recipes": 500,
+        "likes": 50000,
+        "specialty": "American cuisine",
+        "description": "Ina Garten is an American author and host of the Food Network program Barefoot Contessa. She is also a former staff member of the White House Office of Management and Budget. Garten is known for her simple and elegant approach to cooking, and many of her recipes are featured in her bestselling cookbooks, such as Barefoot Contessa at Home and Barefoot Contessa Parties!",
+        "rescipes": [
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            },
+            {
+                "name": "Tomato Soup",
+                "ingredients": [
+                    "2 cans diced tomatoes",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1/4 cup butter",
+                    "1/4 cup flour"
+                ],
+                "method": "1. In a large pot, sauté onion and garlic in butter until onion is translucent.\n2. Add tomatoes (with juice) and bring to a boil.\n3. Reduce heat and simmer for 10-15 minutes.\n4. In a small bowl, whisk together flour and 1/2 cup water until smooth. Slowly pour into soup, stirring constantly. Simmer for an additional 5 minutes or until thickened.\n5. Serve with crusty bread.",
+                "rating": 4.2
+            },
+            {
+                "name": "Beef Stroganoff",
+                "ingredients": [
+                    "1 pound beef sirloin, sliced",
+                    "1 onion, chopped",
+                    "1 can mushrooms",
+                    "1 cup sour cream",
+                    "2 tbsp butter"
+                ],
+                "method": "1. In a large skillet, melt butter over medium-high heat.\n2. Add beef and onion. Cook until beef is browned and onion is translucent.\n3. Add mushrooms and cook for an additional 2-3 minutes.\n4. Remove skillet from heat and stir in sour cream.\n5. Serve over egg noodles.",
+                "rating": 4
+            }
+        ]
     },
     {
-      "name": "Jamie Oliver",
-      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jamie_Oliver_2014.jpg",
-      "years_of_experience": 25,
-      "number_of_recipes": 800,
-      "likes": 100000,
-      "specialty": "Italian cuisine",
-      "description": "Jamie Oliver is a British chef and restaurateur. He is known for his advocacy for healthy eating and his campaigns to improve school food. Oliver has authored several cookbooks, including Jamie's Kitchen, Jamie's Italy, and Jamie's Great Britain. He has also hosted numerous television shows, including The Naked Chef, Jamie's 15 Minute Meals, and Jamie's Super Food."
+        "id": 3,
+        "name": "Jamie Oliver",
+        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jamie_Oliver_2014.jpg",
+        "years_of_experience": 25,
+        "number_of_recipes": 800,
+        "likes": 100000,
+        "specialty": "Italian cuisine",
+        "description": "Jamie Oliver is a British chef and restaurateur. He is known for his advocacy for healthy eating and his campaigns to improve school food. Oliver has authored several cookbooks, including Jamie's Kitchen, Jamie's Italy, and Jamie's Great Britain. He has also hosted numerous television shows, including The Naked Chef, Jamie's 15 Minute Meals, and Jamie's Super Food.",
+        "rescipes": [
+            {
+                "name": "Spaghetti Bolognese",
+                "ingredients": [
+                    "1 pound spaghetti",
+                    "1 pound ground beef",
+                    "1 onion, chopped",
+                    "1 can crushed tomatoes",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef and onion over medium heat until beef is no longer pink.\n3. Add crushed tomatoes and garlic. Simmer for 10-15 minutes.\n4. Serve sauce over cooked spaghetti.",
+                "rating": 4.5
+            },
+            {
+                "name": "Chicken Fajitas",
+                "ingredients": [
+                    "1 pound boneless, skinless chicken breasts",
+                    "1 green bell pepper, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 onion, sliced",
+                    "1/4 cup olive oil"
+                ],
+                "method": "1. Cut chicken into thin strips.\n2. In a large skillet, heat olive oil over medium-high heat.\n3. Add chicken and cook until no longer pink.\n4. Add peppers and onion. Cook until vegetables are tender.\n5. Serve in tortillas.",
+                "rating": 4.7
+            },
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            }
+        ]
     },
     {
-      "name": "Nigella Lawson",
-      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Nigella_Lawson_portrait.jpg",
-      "years_of_experience": 20,
-      "number_of_recipes": 400,
-      "likes": 75000,
-      "specialty": "British cuisine",
-      "description": "Nigella Lawson is a British food writer and television cook. She has written several bestselling cookbooks, including How to Eat, Nigella Bites, and Feast. Lawson is known for her relaxed and informal approach to cooking, and many of her recipes are inspired by her childhood memories and travels. She has also hosted several TV shows, including Nigella Bites and Nigella Feasts."
+        "id": 4,
+        "name": "Nigella Lawson",
+        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Nigella_Lawson_portrait.jpg",
+        "years_of_experience": 20,
+        "number_of_recipes": 400,
+        "likes": 75000,
+        "specialty": "British cuisine",
+        "description": "Nigella Lawson is a British food writer and television cook. She has written several bestselling cookbooks, including How to Eat, Nigella Bites, and Feast. Lawson is known for her relaxed and informal approach to cooking, and many of her recipes are inspired by her childhood memories and travels. She has also hosted several TV shows, including Nigella Bites and Nigella Feasts.",
+        "rescipes": [
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            },
+            {
+                "name": "Tomato Soup",
+                "ingredients": [
+                    "2 cans diced tomatoes",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1/4 cup butter",
+                    "1/4 cup flour"
+                ],
+                "method": "1. In a large pot, sauté onion and garlic in butter until onion is translucent.\n2. Add tomatoes (with juice) and bring to a boil.\n3. Reduce heat and simmer for 10-15 minutes.\n4. In a small bowl, whisk together flour and 1/2 cup water until smooth. Slowly pour into soup, stirring constantly. Simmer for an additional 5 minutes or until thickened.\n5. Serve with crusty bread.",
+                "rating": 4.2
+            },
+            {
+                "name": "Beef Stroganoff",
+                "ingredients": [
+                    "1 pound beef sirloin, sliced",
+                    "1 onion, chopped",
+                    "1 can mushrooms",
+                    "1 cup sour cream",
+                    "2 tbsp butter"
+                ],
+                "method": "1. In a large skillet, melt butter over medium-high heat.\n2. Add beef and onion. Cook until beef is browned and onion is translucent.\n3. Add mushrooms and cook for an additional 2-3 minutes.\n4. Remove skillet from heat and stir in sour cream.\n5. Serve over egg noodles.",
+                "rating": 4
+            }
+        ]
     },
     {
-      "name": "Massimo Bottura",
-      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Massimo_Bottura_2015.jpg",
-      "years_of_experience": 30,
-      "number_of_recipes": 200,
-      "likes": 90000,
-      "specialty": "Italian cuisine",
-      "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner and chef of the three-Michelin-starred Osteria Francescana in Modena, Italy, which has been ranked as one of the best restaurants in the world. Bottura is known for his innovative and creative approach to cooking, and he has been recognized for his efforts to reduce food waste and promote sustainability in the culinary industry. He has authored several cookbooks, including Never Trust a Skinny Italian Chef and Bread is Gold."
+        "id": 5,
+        "name": "Massimo Bottura",
+        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Massimo_Bottura_2015.jpg",
+        "years_of_experience": 30,
+        "number_of_recipes": 200,
+        "likes": 90000,
+        "specialty": "Italian cuisine",
+        "description": "Massimo Bottura is an Italian chef and restaurateur. He is the owner and chef of the three-Michelin-starred Osteria Francescana in Modena, Italy, which has been ranked as one of the best restaurants in the world. Bottura is known for his innovative and creative approach to cooking, and he has been recognized for his efforts to reduce food waste and promote sustainability in the culinary industry. He has authored several cookbooks, including Never Trust a Skinny Italian Chef and Bread is Gold.",
+        "rescipes": [
+            {
+                "name": "Spaghetti Bolognese",
+                "ingredients": [
+                    "1 pound spaghetti",
+                    "1 pound ground beef",
+                    "1 onion, chopped",
+                    "1 can crushed tomatoes",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. Cook spaghetti according to package directions.\n2. In a large skillet, cook ground beef and onion over medium heat until beef is no longer pink.\n3. Add crushed tomatoes and garlic. Simmer for 10-15 minutes.\n4. Serve sauce over cooked spaghetti.",
+                "rating": 4.5
+            },
+            {
+                "name": "Chicken Fajitas",
+                "ingredients": [
+                    "1 pound boneless, skinless chicken breasts",
+                    "1 green bell pepper, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 onion, sliced",
+                    "1/4 cup olive oil"
+                ],
+                "method": "1. Cut chicken into thin strips.\n2. In a large skillet, heat olive oil over medium-high heat.\n3. Add chicken and cook until no longer pink.\n4. Add peppers and onion. Cook until vegetables are tender.\n5. Serve in tortillas.",
+                "rating": 4.7
+            },
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            }
+        ]
     },
     {
-      "name": "Yotam Ottolenghi",
-      "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Yotam_Ottolenghi.jpg",
-      "years_of_experience": 15,
-      "number_of_recipes": 300,
-      "likes": 80000,
-      "specialty": "Middle Eastern cuisine",
-      "description": "Yotam Ottolenghi is a chef, restaurateur, and food writer based in London, UK. He is widely recognized for his approach to vegetarian and Middle Eastern-inspired cuisine, which he often blends with modern techniques and ingredients. Ottolenghi's dishes are known for their bold flavors and colorful presentations, and he has authored several best-selling cookbooks, including Plenty and Jerusalem. He is also the co-owner of several restaurants, including Ottolenghi and NOPI, and has been recognized with numerous awards for his contributions to the culinary world. Ottolenghi is passionate about using fresh, seasonal ingredients and believes that cooking should be enjoyable, creative, and accessible to all."
-
+        "id": 6,
+        "name": "Yotam Ottolenghi",
+        "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Yotam_Ottolenghi.jpg",
+        "years_of_experience": 15,
+        "number_of_recipes": 300,
+        "likes": 80000,
+        "specialty": "Middle Eastern cuisine",
+        "description": "Yotam Ottolenghi is a chef, restaurateur, and food writer based in London, UK. He is widely recognized for his approach to vegetarian and Middle Eastern-inspired cuisine, which he often blends with modern techniques and ingredients. Ottolenghi's dishes are known for their bold flavors and colorful presentations, and he has authored several best-selling cookbooks, including Plenty and Jerusalem. He is also the co-owner of several restaurants, including Ottolenghi and NOPI, and has been recognized with numerous awards for his contributions to the culinary world. Ottolenghi is passionate about using fresh, seasonal ingredients and believes that cooking should be enjoyable, creative, and accessible to all.",
+        "rescipes": [
+            {
+                "name": "Beef Stir-Fry",
+                "ingredients": [
+                    "1 pound flank steak, sliced",
+                    "1 red bell pepper, sliced",
+                    "1 green bell pepper, sliced",
+                    "1 onion, sliced",
+                    "3 cloves garlic, minced"
+                ],
+                "method": "1. In a large skillet or wok, heat oil over high heat.\n2. Add steak and stir-fry until browned.\n3. Add peppers, onion, and garlic. Stir-fry until vegetables are tender.\n4. Serve over rice.",
+                "rating": 4.4
+            },
+            {
+                "name": "Tomato Soup",
+                "ingredients": [
+                    "2 cans diced tomatoes",
+                    "1 onion, chopped",
+                    "2 cloves garlic, minced",
+                    "1/4 cup butter",
+                    "1/4 cup flour"
+                ],
+                "method": "1. In a large pot, sauté onion and garlic in butter until onion is translucent.\n2. Add tomatoes (with juice) and bring to a boil.\n3. Reduce heat and simmer for 10-15 minutes.\n4. In a small bowl, whisk together flour and 1/2 cup water until smooth. Slowly pour into soup, stirring constantly. Simmer for an additional 5 minutes or until thickened.\n5. Serve with crusty bread.",
+                "rating": 4.2
+            },
+            {
+                "name": "Beef Stroganoff",
+                "ingredients": [
+                    "1 pound beef sirloin, sliced",
+                    "1 onion, chopped",
+                    "1 can mushrooms",
+                    "1 cup sour cream",
+                    "2 tbsp butter"
+                ],
+                "method": "1. In a large skillet, melt butter over medium-high heat.\n2. Add beef and onion. Cook until beef is browned and onion is translucent.\n3. Add mushrooms and cook for an additional 2-3 minutes.\n4. Remove skillet from heat and stir in sour cream.\n5. Serve over egg noodles.",
+                "rating": 4
+            }
+        ]
     }
-  ]
-
+]
