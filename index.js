@@ -12,6 +12,12 @@ app.get('/', (req, res) => {
 app.get('/allChef', (req, res) => {
   res.send(allChef)
 })
+app.get('/allChef/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  console.log(id);
+  const selectedChef = allChef.find(chef => parseInt(chef.id) === id)
+  res.send(selectedChef)
+})
 
 app.listen(port, () => {
   console.log(`chefs are working on port ${port}`)
